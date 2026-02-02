@@ -1,0 +1,48 @@
+{
+  "name": "@altrex-ui/floating",
+  "version": "1.0.0",
+  "description": "Vue 3 composables for positioning floating elements (tooltips, dropdowns, popovers)",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./useFloating": "./src/useFloating.js",
+    "./arrow": "./src/arrow.js",
+    "./core": "./src/core/index.js",
+    "./dom": "./src/dom/index.js",
+    "./utils": "./src/utils/index.js",
+    "./utils/dom": "./src/utils/dom.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "validate": "node scripts/validate-imports.js"
+  },
+  "peerDependencies": {
+    "vue": "^3.5.0"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "floating",
+    "tooltip",
+    "popover",
+    "dropdown",
+    "positioning",
+    "composable",
+    "floating-ui",
+    "altrex"
+  ],
+  "author": "Altrex UI",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Altrex-UI/altrex-floating.git"
+  },
+  "devDependencies": {
+    "glob": "^13.0.0"
+  }
+}
