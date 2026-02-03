@@ -1,6 +1,6 @@
 {
   "name": "@altrex-ui/floating",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Vue 3 composables for positioning floating elements (tooltips, dropdowns, popovers)",
   "type": "module",
   "main": "./src/index.js",
